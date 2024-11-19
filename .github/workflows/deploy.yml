@@ -39,6 +39,5 @@ jobs:
         with:
           project: "aum"
           entrypoint: "jsr:@deno/nextjs-start/v15"
+          include: ".next,public"
           root: "."
-          
-          
